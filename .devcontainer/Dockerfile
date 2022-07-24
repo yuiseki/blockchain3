@@ -14,6 +14,5 @@ RUN useradd -m user
 
 WORKDIR /app
 COPY . /app
-RUN npm ci
 
 CMD [ "sleep", "infinity" ]
